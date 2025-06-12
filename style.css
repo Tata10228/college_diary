@@ -1,0 +1,24 @@
+/* Стили ссылок, как у кнопок */
+a {
+    display: inline-block; /* чтобы можно было задать размеры и паддинги */
+    width: 100%; /* если нужно, как у кнопок, иначе можно убрать */
+    padding: 12px;
+    background-color: #fa812f; /* насыщенный апельсиновый */
+    color: #fff9f0;
+    font-weight: 600;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none; /* убрать подчеркивание */
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 3px 10px rgba(250, 129, 47, 0.5);
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+a:hover,
+a:focus {
+    background-color: #d86000; /* насыщенный темно-оранжевый */
+    box-shadow: 0 4px 15px rgba(216, 96, 0, 0.7);
+    outline: none;
+}
